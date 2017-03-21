@@ -1,0 +1,83 @@
+{
+  "name": "heisenburger/designforsecurity",
+  "version": "0.1.4",
+  "libraries": {
+    "xv": "^1.1.25"
+  },
+  "title": "Design for Security",
+  "branch": "master",
+  "style": {
+    "name": "Swiss",
+    "componentSet": {
+      "nav": "nav/BasicNav",
+      "header": "header/SwissHeader",
+      "article": "article/SwissArticle",
+      "footer": "footer/BasicFooter"
+    },
+    "fontFamily": "\"Helvetica Neue\", Helvetica, Arial, sans-serif",
+    "heading": {
+      "fontWeight": 700,
+      "letterSpacing": "-0.01em"
+    },
+    "layout": {
+      "fluid": true
+    },
+    "colors": {
+      "text": "#000",
+      "background": "#fff",
+      "primary": "#05a",
+      "secondary": "#444",
+      "highlight": "#f30",
+      "border": "#ccc",
+      "muted": "#eee"
+    }
+  },
+  "content": [
+    {
+      "component": "nav",
+      "links": [
+        {
+          "href": "https://github.com/heisenburger/designforsecurity",
+          "text": "GitHub"
+        }
+      ]
+    },
+    {
+      "component": "header",
+      "heading": "designforsecurity",
+      "subhead": "Pattern library for designers",
+      "children": [
+        {
+          "component": "ui/TweetButton",
+          "text": "designforsecurity: Pattern library for designers",
+          "url": null
+        },
+        {
+          "component": "ui/GithubButton",
+          "user": "heisenburger",
+          "repo": "designforsecurity"
+        }
+      ]
+    },
+    {
+      "component": "article",
+      "metadata": {
+        "source": "github.readme"
+      },
+      "html": "\n\n"
+    },
+    {
+      "component": "footer",
+      "links": [
+        {
+          "href": "https://github.com/heisenburger/designforsecurity",
+          "text": "GitHub"
+        },
+        {
+          "href": "https://github.com/heisenburger",
+          "text": "heisenburger"
+        }
+      ]
+    }
+  ]
+}
