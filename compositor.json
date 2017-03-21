@@ -44,8 +44,8 @@
     },
     {
       "component": "header",
-      "heading": "designforsecurity",
-      "subhead": "Pattern library for designers",
+      "heading": "Design for Security",
+      "subhead": "A UX pattern library",
       "children": [
         {
           "component": "ui/TweetButton",
@@ -57,7 +57,9 @@
           "user": "heisenburger",
           "repo": "designforsecurity"
         }
-      ]
+      ],
+      "slug": "",
+      "text": ""
     },
     {
       "component": "article",
