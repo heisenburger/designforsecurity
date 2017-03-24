@@ -7,41 +7,87 @@
   "title": "Design for Security",
   "branch": "master",
   "style": {
-    "name": "Swiss",
+    "name": "Default",
     "componentSet": {
       "nav": "nav/BasicNav",
-      "header": "header/SwissHeader",
-      "article": "article/SwissArticle",
+      "header": "header/BannerHeader",
+      "article": "article/BasicArticle",
       "footer": "footer/BasicFooter"
     },
-    "fontFamily": "\"Helvetica Neue\", Helvetica, Arial, sans-serif",
+    "fontFamily": "-apple-system, BlinkMacSystemFont, sans-serif",
+    "fontWeight": 400,
+    "bold": 600,
+    "lineHeight": 1.5,
+    "typeScale": [
+      72,
+      48,
+      24,
+      20,
+      16,
+      14,
+      12
+    ],
+    "monospace": "Menlo, monospace",
     "heading": {
-      "fontWeight": 700,
-      "letterSpacing": "-0.01em"
+      "fontFamily": null,
+      "fontStyle": null,
+      "fontWeight": 600,
+      "lineHeight": 1.25,
+      "textTransform": null,
+      "letterSpacing": null
     },
+    "h0": {},
+    "h1": {},
+    "h2": {},
+    "h3": {},
+    "h4": {},
+    "h5": {},
+    "h6": {},
+    "alternativeText": {},
+    "space": [
+      0,
+      8,
+      16,
+      32,
+      48,
+      64,
+      96
+    ],
     "layout": {
-      "fluid": true
+      "maxWidth": 1024,
+      "centered": false
     },
     "colors": {
-      "text": "#000",
+      "text": "#111",
       "background": "#fff",
-      "primary": "#05a",
-      "secondary": "#444",
-      "highlight": "#f30",
-      "border": "#ccc",
+      "primary": "#08e",
+      "secondary": "#059",
+      "highlight": "#e08",
+      "border": "#ddd",
       "muted": "#eee"
+    },
+    "border": {
+      "width": 1,
+      "radius": 2
+    },
+    "link": {},
+    "button": {
+      "hover": {
+        "boxShadow": "inset 0 0 0 999px rgba(0, 0, 0, .125)"
+      }
+    },
+    "input": {},
+    "body": {
+      "margin": 0
+    },
+    "breakpoints": {
+      "xs": "@media screen and (max-width:40em)",
+      "sm": "@media screen and (min-width:40em)",
+      "md": "@media screen and (min-width:52em)",
+      "lg": "@media screen and (min-width:64em)"
     }
   },
   "content": [
-    {
-      "component": "nav",
-      "links": [
-        {
-          "href": "https://github.com/heisenburger/designforsecurity",
-          "text": "GitHub"
-        }
-      ]
-    },
     {
       "component": "header",
       "heading": "Design for Security",
@@ -66,7 +112,7 @@
       "metadata": {
         "source": "github.readme"
       },
-      "html": "<h1>Design for Security</h1>\n\n<h2>Why?</h2>\n<p>Security, like accessibility and performance, are core to any work for or on the internet. Secure web practice not only protects people from bad actors, bots, malware and the like, it also <em>educates</em> internet denizens on how to protect themselves -- what to look out for, and when to be suspicious. It&apos;s a topic that should penetrate an entire project team, not just the security specialists. This means designers, too.</p>\n<p>In order to promote and aid awareness of secure practices in design, below is a (growing) collection of UX patterns and flows for common tasks with security in mind. Please feel free to make comments, raise issues and submit pull requests if you spot any problems or have a better alternative. Thanks!</p>\n<h3>Authentication</h3>\n<p>Authentication is how your website/app confirms a user is who they say they are.</p>\n<h4>Account registration</h4>\n<ul>\n<li>Password help: long and easy to remember is better than short and hard to remember</li>\n<li>&quot;Passphrases not passwords&quot;</li>\n<li>2FA: if you offer it, turn it on by default</li>\n</ul>\n<h4>Login flow</h4>\n<ul>\n<li>Use semantic elements (as always)</li>\n<li>Allow autocomplete by password managers</li>\n</ul>\n<h3>Authorization</h3>\n<p>Authorization is how your website/app confirms that a user is allowed to access some data or some part of your app.</p>\n<h4>Sessioning</h4>\n<h4>Managing permissions / access control</h4>\n<h4>Admin protections</h4>\n<h3>Resetting credentials</h3>\n<h3>User input</h3>\n<h4>Text field sanitation</h4>\n<h4>File upload</h4>\n<h4>XSS protections</h4>\n"
+      "html": "\n\n"
     },
     {
       "component": "footer",
